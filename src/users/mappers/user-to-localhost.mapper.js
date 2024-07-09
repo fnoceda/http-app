@@ -8,9 +8,8 @@ import { UserModel } from "../models/users-model";
 
 
 export const userModelToLocalHost = (user) => {
-    console.log(user);
 
-    const userLocalhost = {
+    const {
         avatar, 
         balance, 
         firstName, 
@@ -21,7 +20,6 @@ export const userModelToLocalHost = (user) => {
     } = user;
 
 
-    console.log(userLocalhost);
 
     return {
         avatar, 

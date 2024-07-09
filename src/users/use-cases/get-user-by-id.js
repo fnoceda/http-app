@@ -1,4 +1,4 @@
-import { localhostUserToModel } from '../mappers/localhost-user.mapper';
+import { localhostUserToModel } from '../mappers/localhost-user-model.mapper';
 import { UserModel } from '../models/users-model';
 
 /**

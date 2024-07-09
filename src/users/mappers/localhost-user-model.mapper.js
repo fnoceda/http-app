@@ -2,7 +2,7 @@ import { UserModel } from "../models/users-model";
 
 /**
  * 
- * @param {Like<User>} localhostUser 
+ * @param {Like<UserModel>} localhostUser 
  * @returns {User}
  */
 export const localhostUserToModel = (localhostUser) => {
